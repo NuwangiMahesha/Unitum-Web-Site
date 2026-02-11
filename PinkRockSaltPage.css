@@ -1,0 +1,1383 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.pink-rock-salt-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.pink-rock-salt-main {
+  padding-top: 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Top Bar Section */
+.pink-rock-salt-top-bar {
+  width: 1440px;
+  height: 72px;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-right: 120px;
+  padding-bottom: 16px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+/* Main Container - First Section */
+.pink-rock-salt-container {
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-title-section {
+  width: 1200px;
+  height: 116px;
+  margin: 0 0 60px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.pink-rock-salt-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+.pink-rock-salt-image-section {
+  width: 1200px;
+  height: 583px;
+  transform: rotate(0deg);
+  opacity: 1;
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pink-rock-salt-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right center;
+  display: block;
+}
+
+/* Section Images - No Hover Effects */
+.pink-rock-salt-image-section,
+.pink-rock-salt-lumps-image,
+.pink-rock-salt-powder-image,
+.pink-rock-salt-freeflow-image,
+.pink-rock-salt-granules-image {
+  cursor: default;
+  position: relative;
+  overflow: hidden;
+}
+
+.pink-rock-salt-image,
+.pink-rock-salt-lumps-img,
+.pink-rock-salt-powder-img,
+.pink-rock-salt-freeflow-img,
+.pink-rock-salt-granules-img {
+  transition: none;
+}
+
+/* Glow Animation - Removed */
+
+/* Approach Section - Second Section */
+.pink-rock-salt-approach-section {
+  width: 1440px;
+  height: 680px;
+  margin: -120px auto 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-approach-title-container {
+  width: 491px;
+  height: 26px;
+  margin-bottom: 60px;
+}
+
+.pink-rock-salt-approach-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #888888;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+.pink-rock-salt-approach-description-container {
+  width: 997px;
+  height: 432px;
+  background: #FFFFFF;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-approach-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+}
+
+/* Our Principal Title in Approach Section */
+.pink-rock-salt-our-principal-title-container {
+  width: 491px;
+  height: 26px;
+  margin-top: 80px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-our-principal-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+/* Salt Lumps Section - Third Section */
+.pink-rock-salt-lumps-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-lumps-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.pink-rock-salt-lumps-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-lumps-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.pink-rock-salt-lumps-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-lumps-description-container {
+  width: 593px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-lumps-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-lumps-button {
+  width: 209px;
+  height: 65px;
+  padding: 16px 32px;
+  gap: 12px;
+  border-radius: 8px;
+  background-color: #456444;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  transform: rotate(0deg);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.pink-rock-salt-lumps-button:hover {
+  background-color: #3a5439;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(69, 100, 68, 0.3);
+}
+
+.button-text {
+  margin-right: 8px;
+}
+
+.button-icon {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.pink-rock-salt-lumps-image {
+  width: 491px;
+  height: 491px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pink-rock-salt-lumps-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Fine Powder Section - Fourth Section */
+.pink-rock-salt-powder-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-powder-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.pink-rock-salt-powder-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-powder-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.pink-rock-salt-powder-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-powder-description-container {
+  width: 593px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-powder-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-powder-button {
+  width: 209px;
+  height: 65px;
+  padding: 16px 32px;
+  gap: 12px;
+  border-radius: 8px;
+  background-color: #456444;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  transform: rotate(0deg);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.pink-rock-salt-powder-button:hover {
+  background-color: #3a5439;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(69, 100, 68, 0.3);
+}
+
+.pink-rock-salt-powder-image {
+  width: 491px;
+  height: 491px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pink-rock-salt-powder-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Free-Flow Salt Section - Fifth Section */
+.pink-rock-salt-freeflow-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-freeflow-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.pink-rock-salt-freeflow-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-freeflow-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.pink-rock-salt-freeflow-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-freeflow-description-container {
+  width: 593px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-freeflow-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-freeflow-button {
+  width: 209px;
+  height: 65px;
+  padding: 16px 32px;
+  gap: 12px;
+  border-radius: 8px;
+  background-color: #456444;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  transform: rotate(0deg);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.pink-rock-salt-freeflow-button:hover {
+  background-color: #3a5439;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(69, 100, 68, 0.3);
+}
+
+.pink-rock-salt-freeflow-image {
+  width: 491px;
+  height: 491px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pink-rock-salt-freeflow-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Granules Section - Sixth Section */
+.pink-rock-salt-granules-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.pink-rock-salt-granules-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.pink-rock-salt-granules-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-granules-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.pink-rock-salt-granules-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-granules-description-container {
+  width: 593px;
+  height: 227px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-granules-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.pink-rock-salt-granules-button {
+  width: 209px;
+  height: 65px;
+  padding: 16px 32px;
+  gap: 12px;
+  border-radius: 8px;
+  background-color: #456444;
+  color: #ffffff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  transform: rotate(0deg);
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.pink-rock-salt-granules-button:hover {
+  background-color: #3a5439;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(69, 100, 68, 0.3);
+}
+
+.pink-rock-salt-granules-image {
+  width: 491px;
+  height: 491px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.pink-rock-salt-granules-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 768px) {
+  .pink-rock-salt-approach-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .pink-rock-salt-approach-title-container {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .pink-rock-salt-approach-title {
+    font-size: 14px !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .pink-rock-salt-approach-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-approach-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+}
+@media (max-width: 768px) {
+  .pink-rock-salt-page {
+    width: 100%;
+  }
+
+  .pink-rock-salt-main {
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  /* Top Bar Mobile */
+  .pink-rock-salt-top-bar {
+    width: 100% !important;
+    height: auto !important;
+    padding: 10px 16px !important;
+  }
+
+  /* Hero Section Mobile */
+  .pink-rock-salt-container {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .pink-rock-salt-title-section {
+    width: 100% !important;
+    height: auto !important;
+    position: static !important;
+    top: auto !important;
+    margin-bottom: 20px !important;
+  }
+
+  .pink-rock-salt-title {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .pink-rock-salt-image-section {
+    width: 100% !important;
+    height: 200px !important;
+    position: static !important;
+    top: auto !important;
+    margin: 0 !important;
+    border-radius: 8px !important;
+  }
+
+  /* Disable hover effects on mobile for performance */
+  .pink-rock-salt-image-section {
+    transition: none;
+  }
+  
+  .pink-rock-salt-image-section:hover {
+    transform: none;
+    animation: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* Enhanced Responsive Design for Better Image Handling */
+
+/* Tablet Landscape - 1024px to 1440px */
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .pink-rock-salt-container {
+    width: 95%;
+    padding: 50px 80px;
+  }
+
+  .pink-rock-salt-title-section {
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .pink-rock-salt-image-section {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    aspect-ratio: 1200/583;
+  }
+}
+
+/* Tablet Portrait - 768px to 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .pink-rock-salt-container {
+    width: 100%;
+    padding: 40px 50px;
+  }
+
+  .pink-rock-salt-title-section {
+    width: 100%;
+    position: static;
+    top: auto;
+  }
+
+  .pink-rock-salt-image-section {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200/583;
+    max-width: 900px;
+    position: static;
+    top: auto;
+  }
+}
+
+/* Mobile Landscape - 481px to 768px */
+@media (max-width: 768px) and (min-width: 481px) {
+  .pink-rock-salt-image-section {
+    height: 250px !important;
+  }
+}
+
+/* Small Mobile - 320px to 480px */
+@media (max-width: 480px) and (min-width: 321px) {
+  .pink-rock-salt-image-section {
+    height: 180px !important;
+    border-radius: 6px !important;
+  }
+}
+
+/* Extra Small Mobile - 320px and below */
+@media (max-width: 320px) {
+  .pink-rock-salt-container {
+    padding: 15px 12px !important;
+  }
+
+  .pink-rock-salt-image-section {
+    height: 150px !important;
+    border-radius: 4px !important;
+  }
+}
+
+/* Mobile Touch Effects */
+@media (hover: none) and (pointer: coarse) {
+  .pink-rock-salt-image-section:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}
+
+/* Mobile Responsive Design - 768px and below */
+@media (max-width: 768px) {
+  .pink-rock-salt-page {
+    width: 100%;
+  }
+
+  .pink-rock-salt-main {
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  /* Top Bar Mobile */
+  .pink-rock-salt-top-bar {
+    width: 100% !important;
+    height: auto !important;
+    padding: 10px 16px !important;
+  }
+
+  /* Hero Section Mobile */
+  .pink-rock-salt-container {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .pink-rock-salt-title-section {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 20px !important;
+  }
+
+  .pink-rock-salt-title {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+
+  .pink-rock-salt-image-section {
+    width: 100% !important;
+    height: 200px !important;
+    margin: 0 !important;
+    border-radius: 8px !important;
+  }
+
+  /* Approach Section Mobile */
+  .pink-rock-salt-approach-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .pink-rock-salt-approach-title-container {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 16px !important;
+  }
+
+  .pink-rock-salt-approach-title {
+    font-size: 14px !important;
+  }
+
+  .pink-rock-salt-approach-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-approach-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Salt Lumps Section Mobile */
+  .pink-rock-salt-lumps-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .pink-rock-salt-lumps-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .pink-rock-salt-lumps-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-lumps-subtitle {
+    font-size: 14px !important;
+  }
+
+  .pink-rock-salt-lumps-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .pink-rock-salt-lumps-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-lumps-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .pink-rock-salt-lumps-button {
+    width: 180px !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #456444, #5a7a59) !important;
+    box-shadow: 0 6px 20px rgba(69, 100, 68, 0.4) !important;
+    transform: translateY(0) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    font-weight: 600 !important;
+  }
+
+  .pink-rock-salt-lumps-button:active {
+    transform: translateY(2px) scale(0.98) !important;
+    box-shadow: 0 3px 10px rgba(69, 100, 68, 0.6) !important;
+  }
+
+  .pink-rock-salt-lumps-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Fine Powder Section Mobile */
+  .pink-rock-salt-powder-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .pink-rock-salt-powder-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .pink-rock-salt-powder-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-powder-subtitle {
+    font-size: 14px !important;
+  }
+
+  .pink-rock-salt-powder-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .pink-rock-salt-powder-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-powder-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .pink-rock-salt-powder-button {
+    width: 180px !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #456444, #5a7a59) !important;
+    box-shadow: 0 6px 20px rgba(69, 100, 68, 0.4) !important;
+    transform: translateY(0) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    font-weight: 600 !important;
+  }
+
+  .pink-rock-salt-powder-button:active {
+    transform: translateY(2px) scale(0.98) !important;
+    box-shadow: 0 3px 10px rgba(69, 100, 68, 0.6) !important;
+  }
+
+  .pink-rock-salt-powder-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Free-Flow Salt Section Mobile */
+  .pink-rock-salt-freeflow-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .pink-rock-salt-freeflow-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .pink-rock-salt-freeflow-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-freeflow-subtitle {
+    font-size: 14px !important;
+  }
+
+  .pink-rock-salt-freeflow-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .pink-rock-salt-freeflow-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-freeflow-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .pink-rock-salt-freeflow-button {
+    width: 180px !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #456444, #5a7a59) !important;
+    box-shadow: 0 6px 20px rgba(69, 100, 68, 0.4) !important;
+    transform: translateY(0) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    font-weight: 600 !important;
+  }
+
+  .pink-rock-salt-freeflow-button:active {
+    transform: translateY(2px) scale(0.98) !important;
+    box-shadow: 0 3px 10px rgba(69, 100, 68, 0.6) !important;
+  }
+
+  .pink-rock-salt-freeflow-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Granules Section Mobile */
+  .pink-rock-salt-granules-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .pink-rock-salt-granules-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .pink-rock-salt-granules-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-granules-subtitle {
+    font-size: 14px !important;
+  }
+
+  .pink-rock-salt-granules-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .pink-rock-salt-granules-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .pink-rock-salt-granules-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .pink-rock-salt-granules-button {
+    width: 180px !important;
+    height: 55px !important;
+    font-size: 15px !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #456444, #5a7a59) !important;
+    box-shadow: 0 6px 20px rgba(69, 100, 68, 0.4) !important;
+    transform: translateY(0) !important;
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+    font-weight: 600 !important;
+  }
+
+  .pink-rock-salt-granules-button:active {
+    transform: translateY(2px) scale(0.98) !important;
+    box-shadow: 0 3px 10px rgba(69, 100, 68, 0.6) !important;
+  }
+
+  .pink-rock-salt-granules-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+}
+
+/* Enhanced Responsive Design for Better Image Handling */
+
+/* Tablet Landscape - 1024px to 1440px */
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .pink-rock-salt-container {
+    width: 95%;
+    padding: 50px 80px;
+  }
+
+  .pink-rock-salt-image-section {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    aspect-ratio: 1200/583;
+  }
+
+  .pink-rock-salt-lumps-image,
+  .pink-rock-salt-powder-image,
+  .pink-rock-salt-freeflow-image,
+  .pink-rock-salt-granules-image {
+    width: 420px;
+    height: 400px;
+  }
+}
+
+/* Tablet Portrait - 768px to 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .pink-rock-salt-container {
+    width: 100%;
+    padding: 40px 50px;
+  }
+
+  .pink-rock-salt-image-section {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200/583;
+    max-width: 900px;
+  }
+
+  .pink-rock-salt-lumps-content,
+  .pink-rock-salt-powder-content,
+  .pink-rock-salt-freeflow-content,
+  .pink-rock-salt-granules-content {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .pink-rock-salt-lumps-image,
+  .pink-rock-salt-powder-image,
+  .pink-rock-salt-freeflow-image,
+  .pink-rock-salt-granules-image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    order: 2;
+  }
+
+  .pink-rock-salt-lumps-text,
+  .pink-rock-salt-powder-text,
+  .pink-rock-salt-freeflow-text,
+  .pink-rock-salt-granules-text {
+    width: 100%;
+    max-width: 700px;
+    order: 1;
+  }
+}
+
+/* Mobile Landscape - 481px to 768px */
+@media (max-width: 768px) and (min-width: 481px) {
+  .pink-rock-salt-image-section {
+    height: 250px !important;
+  }
+
+  .pink-rock-salt-lumps-image,
+  .pink-rock-salt-powder-image,
+  .pink-rock-salt-freeflow-image,
+  .pink-rock-salt-granules-image {
+    height: 250px !important;
+  }
+}
+
+/* Small Mobile - 320px to 480px */
+@media (max-width: 480px) and (min-width: 321px) {
+  .pink-rock-salt-image-section {
+    height: 180px !important;
+    border-radius: 6px !important;
+  }
+
+  .pink-rock-salt-lumps-image,
+  .pink-rock-salt-powder-image,
+  .pink-rock-salt-freeflow-image,
+  .pink-rock-salt-granules-image {
+    height: 180px !important;
+    border-radius: 6px !important;
+  }
+}
+
+/* Extra Small Mobile - 320px and below */
+@media (max-width: 320px) {
+  .pink-rock-salt-container {
+    padding: 15px 12px !important;
+  }
+
+  .pink-rock-salt-image-section {
+    height: 150px !important;
+    border-radius: 4px !important;
+  }
+
+  .pink-rock-salt-lumps-image,
+  .pink-rock-salt-powder-image,
+  .pink-rock-salt-freeflow-image,
+  .pink-rock-salt-granules-image {
+    height: 150px !important;
+    border-radius: 4px !important;
+  }
+
+  .pink-rock-salt-approach-section,
+  .pink-rock-salt-lumps-section,
+  .pink-rock-salt-powder-section,
+  .pink-rock-salt-freeflow-section,
+  .pink-rock-salt-granules-section {
+    padding: 15px 12px !important;
+  }
+}
+
+/* Mobile Touch Effects - Removed */
+
+/* Mobile Hover Effects - Removed */

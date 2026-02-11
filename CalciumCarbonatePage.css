@@ -1,0 +1,1014 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.calcium-carbonate-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.calcium-carbonate-main {
+  padding-top: 80px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Main Container - First Section */
+.calcium-carbonate-container {
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-title-section {
+  width: 1200px;
+  height: 116px;
+  margin: 0 0 60px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.calcium-carbonate-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+}
+
+.calcium-carbonate-image-section {
+  width: 1200px;
+  height: 583px;
+  transform: rotate(0deg);
+  opacity: 1;
+  margin: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calcium-carbonate-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Approach Section - Second Section */
+.calcium-carbonate-approach-section {
+  width: 1440px;
+  height: 680px;
+  margin: -180px auto 0 auto;
+  padding: 40px 120px 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-approach-title-container {
+  width: 491px;
+  height: 26px;
+  margin-bottom: 60px;
+}
+
+.calcium-carbonate-approach-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #888888;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  text-align: left;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+}
+
+.calcium-carbonate-approach-description-container {
+  width: 997px;
+  height: 432px;
+  background: #FFFFFF;
+  opacity: 1;
+  transform: rotate(0deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-approach-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 35px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+}
+/* Our Principal Section - Third Section */
+.calcium-carbonate-principal-section {
+  width: 1440px;
+  height: 800px;
+  margin: -180px auto 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-principal-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 60px;
+}
+
+.calcium-carbonate-principal-text {
+  flex: 1;
+  max-width: 500px;
+  padding-right: 0;
+}
+
+.calcium-carbonate-principal-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.calcium-carbonate-principal-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0 0 40px 0;
+  text-align: left;
+}
+
+.calcium-carbonate-principal-description {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #666666;
+  margin: 0 0 24px 0;
+  text-align: left;
+}
+
+.calcium-carbonate-principal-image {
+  width: 491px;
+  height: 485px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calcium-carbonate-principal-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Coated Calcium Carbonate Section */
+.calcium-carbonate-coated-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-coated-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.calcium-carbonate-coated-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-coated-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.calcium-carbonate-coated-title {
+  width: 593px;
+  height: 120px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-coated-description-container {
+  width: 593px;
+  height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-coated-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-coated-image {
+  width: 491px;
+  height: 485px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calcium-carbonate-coated-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Wall Coating Solutions Section */
+.calcium-carbonate-wall-coating-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-wall-coating-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.calcium-carbonate-wall-coating-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-wall-coating-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.calcium-carbonate-wall-coating-title {
+  width: 593px;
+  height: 120px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-wall-coating-description-container {
+  width: 593px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-wall-coating-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-wall-coating-image {
+  width: 491px;
+  height: 485px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calcium-carbonate-wall-coating-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Mobile Responsive Design - 768px and below */
+@media (max-width: 768px) {
+  .calcium-carbonate-page {
+    width: 100%;
+  }
+
+  .calcium-carbonate-main {
+    padding-top: 60px;
+    width: 100%;
+  }
+
+  /* Hero Section Mobile */
+  .calcium-carbonate-container {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .calcium-carbonate-title-section {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 20px !important;
+  }
+
+  .calcium-carbonate-title {
+    font-size: 24px !important;
+    line-height: 1.3 !important;
+  }
+
+  .calcium-carbonate-image-section {
+    width: 100% !important;
+    height: 200px !important;
+    margin: 0 !important;
+    border-radius: 8px !important;
+  }
+
+  /* Approach Section Mobile */
+  .calcium-carbonate-approach-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .calcium-carbonate-approach-title-container {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom: 16px !important;
+  }
+
+  .calcium-carbonate-approach-title {
+    font-size: 14px !important;
+  }
+
+  .calcium-carbonate-approach-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-approach-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  /* Our Principal Section Mobile */
+  .calcium-carbonate-principal-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .calcium-carbonate-principal-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .calcium-carbonate-principal-text {
+    width: 100% !important;
+    max-width: none !important;
+    order: 1 !important;
+  }
+
+  .calcium-carbonate-principal-subtitle {
+    font-size: 14px !important;
+  }
+
+  .calcium-carbonate-principal-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+  }
+
+  .calcium-carbonate-principal-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+  }
+
+  .calcium-carbonate-principal-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Coated Section Mobile */
+  .calcium-carbonate-coated-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .calcium-carbonate-coated-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .calcium-carbonate-coated-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-coated-subtitle {
+    font-size: 14px !important;
+  }
+
+  .calcium-carbonate-coated-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .calcium-carbonate-coated-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-coated-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .calcium-carbonate-coated-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Wall Coating Section Mobile */
+  .calcium-carbonate-wall-coating-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .calcium-carbonate-wall-coating-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .calcium-carbonate-wall-coating-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-wall-coating-subtitle {
+    font-size: 14px !important;
+  }
+
+  .calcium-carbonate-wall-coating-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .calcium-carbonate-wall-coating-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-wall-coating-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .calcium-carbonate-wall-coating-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Manufacturing Section Mobile */
+  .calcium-carbonate-manufacturing-section {
+    width: 100% !important;
+    height: auto !important;
+    padding: 20px 16px !important;
+    margin: 0 !important;
+  }
+
+  .calcium-carbonate-manufacturing-content {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .calcium-carbonate-manufacturing-text {
+    width: 100% !important;
+    height: auto !important;
+    order: 1 !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-manufacturing-subtitle {
+    font-size: 14px !important;
+  }
+
+  .calcium-carbonate-manufacturing-title {
+    font-size: 20px !important;
+    line-height: 1.3 !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .calcium-carbonate-manufacturing-description-container {
+    width: 100% !important;
+    height: auto !important;
+    gap: 16px !important;
+  }
+
+  .calcium-carbonate-manufacturing-description {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    width: 100% !important;
+  }
+
+  .calcium-carbonate-manufacturing-image {
+    width: 100% !important;
+    height: 200px !important;
+    order: 2 !important;
+    position: static !important;
+    top: auto !important;
+    mix-blend-mode: normal !important;
+  }
+
+  /* Full Width Image Section Mobile */
+  .calcium-carbonate-fullwidth-section {
+    width: 100% !important;
+    height: 250px !important;
+    margin: 0 !important;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover !important;
+  }
+}
+/* Manufacturing Solutions Section */
+.calcium-carbonate-manufacturing-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  padding: 60px 120px;
+  transform: rotate(0deg);
+  opacity: 1;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.calcium-carbonate-manufacturing-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 48px;
+}
+
+.calcium-carbonate-manufacturing-text {
+  width: 711px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-manufacturing-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin: 0;
+  text-align: left;
+}
+
+.calcium-carbonate-manufacturing-title {
+  width: 593px;
+  height: 120px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -2%;
+  color: #000000;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-manufacturing-description-container {
+  width: 593px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 60px;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-manufacturing-description {
+  width: 593px;
+  height: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0%;
+  color: #5C5C5C;
+  margin: 0;
+  text-align: left;
+  transform: rotate(0deg);
+  opacity: 1;
+}
+
+.calcium-carbonate-manufacturing-image {
+  width: 491px;
+  height: 485px;
+  transform: rotate(0deg);
+  opacity: 1;
+  position: relative;
+  top: 3px;
+  mix-blend-mode: multiply;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.calcium-carbonate-manufacturing-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Full Width Image Section */
+.calcium-carbonate-fullwidth-section {
+  width: 1440px;
+  height: 800px;
+  margin: 0 auto;
+  transform: rotate(0deg);
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.calcium-carbonate-fullwidth-image {
+  width: 1440px;
+  height: 800px;
+  transform: rotate(0deg);
+  opacity: 1;
+  object-fit: cover;
+  display: block;
+}
+/* Enhanced Responsive Design for Better Image Handling */
+
+/* Tablet Landscape - 1024px to 1440px */
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .calcium-carbonate-container {
+    width: 95%;
+    padding: 50px 80px;
+  }
+
+  .calcium-carbonate-image-section {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    aspect-ratio: 1200/583;
+  }
+
+  .calcium-carbonate-principal-image,
+  .calcium-carbonate-coated-image,
+  .calcium-carbonate-manufacturing-image {
+    width: 420px;
+    height: 400px;
+  }
+
+  .calcium-carbonate-fullwidth-section {
+    width: 95%;
+    max-width: 1400px;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    width: 100%;
+    height: 700px;
+  }
+}
+
+/* Tablet Portrait - 768px to 1024px */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .calcium-carbonate-container {
+    width: 100%;
+    padding: 40px 50px;
+  }
+
+  .calcium-carbonate-image-section {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1200/583;
+    max-width: 900px;
+  }
+
+  .calcium-carbonate-principal-content,
+  .calcium-carbonate-coated-content,
+  .calcium-carbonate-manufacturing-content {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .calcium-carbonate-principal-image,
+  .calcium-carbonate-coated-image,
+  .calcium-carbonate-manufacturing-image {
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    order: 2;
+  }
+
+  .calcium-carbonate-principal-text,
+  .calcium-carbonate-coated-text,
+  .calcium-carbonate-manufacturing-text {
+    width: 100%;
+    max-width: 700px;
+    order: 1;
+  }
+
+  .calcium-carbonate-fullwidth-section {
+    width: 100%;
+    height: 500px;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+/* Mobile Landscape - 481px to 768px */
+@media (max-width: 768px) and (min-width: 481px) {
+  .calcium-carbonate-image-section {
+    height: 250px !important;
+  }
+
+  .calcium-carbonate-principal-image,
+  .calcium-carbonate-coated-image,
+  .calcium-carbonate-manufacturing-image {
+    height: 250px !important;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    height: 300px !important;
+  }
+}
+
+/* Small Mobile - 320px to 480px */
+@media (max-width: 480px) and (min-width: 321px) {
+  .calcium-carbonate-image-section {
+    height: 180px !important;
+    border-radius: 6px !important;
+  }
+
+  .calcium-carbonate-principal-image,
+  .calcium-carbonate-coated-image,
+  .calcium-carbonate-manufacturing-image {
+    height: 180px !important;
+    border-radius: 6px !important;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    height: 220px !important;
+  }
+}
+
+/* Extra Small Mobile - 320px and below */
+@media (max-width: 320px) {
+  .calcium-carbonate-container {
+    padding: 15px 12px !important;
+  }
+
+  .calcium-carbonate-image-section {
+    height: 150px !important;
+    border-radius: 4px !important;
+  }
+
+  .calcium-carbonate-principal-image,
+  .calcium-carbonate-coated-image,
+  .calcium-carbonate-manufacturing-image {
+    height: 150px !important;
+    border-radius: 4px !important;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    height: 180px !important;
+  }
+
+  .calcium-carbonate-approach-section,
+  .calcium-carbonate-principal-section,
+  .calcium-carbonate-coated-section,
+  .calcium-carbonate-manufacturing-section {
+    padding: 15px 12px !important;
+  }
+}
+
+/* High DPI / Retina Display Optimization */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .calcium-carbonate-image,
+  .calcium-carbonate-principal-img,
+  .calcium-carbonate-coated-img,
+  .calcium-carbonate-manufacturing-img,
+  .calcium-carbonate-fullwidth-image {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Landscape Orientation Specific */
+@media (orientation: landscape) and (max-height: 500px) {
+  .calcium-carbonate-image-section {
+    height: 120px !important;
+  }
+
+  .calcium-carbonate-principal-image,
+  .calcium-carbonate-coated-image,
+  .calcium-carbonate-manufacturing-image {
+    height: 120px !important;
+  }
+
+  .calcium-carbonate-fullwidth-image {
+    height: 150px !important;
+  }
+}

@@ -1,0 +1,198 @@
+.services-section {
+  padding: 20px 120px 80px;
+  background-color: #FDFFFA;
+  min-height: 640px;
+  height: 640px;
+  display: flex;
+  align-items: center;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+}
+
+.services-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.services-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: #666;
+  margin: 0;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+  transform: translateY(-12px);
+}
+
+.service-card:active {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Special styling for the Global Sourcing Excellence card */
+.service-card:first-child {
+  position: relative;
+}
+
+.service-card:first-child::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(74, 107, 82, 0.05) 0%, rgba(61, 61, 92, 0.05) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.service-card:first-child:hover::after {
+  opacity: 1;
+}
+
+.service-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.service-content {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.service-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d2d2d;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.service-description {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.service-meta {
+  display: flex;
+  gap: 16px;
+  font-size: 11px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.service-date,
+.service-read-time {
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .service-card {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services-section {
+    height: auto;
+    min-height: auto;
+    padding: 60px 20px;
+  }
+
+  .services-container {
+    padding: 0 10px;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .service-card {
+    border-radius: 12px;
+    min-height: 300px;
+  }
+  
+  .service-image {
+    height: 160px;
+    border-radius: 12px 12px 0 0;
+  }
+  
+  .service-content {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+  }
+  
+  .service-title {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .service-description {
+    font-size: 14px;
+    margin-bottom: 12px;
+    flex: 1;
+  }
+  
+  .services-header {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
+  .services-heading {
+    font-size: 20px;
+  }
+}

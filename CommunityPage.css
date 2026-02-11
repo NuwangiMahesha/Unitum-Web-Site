@@ -1,0 +1,346 @@
+/* Community page specific styles - isolated to avoid affecting other pages */
+
+.community-page {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+}
+
+.community-main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Section */
+.community-hero {
+  width: 100%;
+  max-width: 1440px;
+  height: 960px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.community-page .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.community-page .hero-overlay {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 120px;
+  padding-right: 120px;
+  box-sizing: border-box;
+}
+
+.community-page .hero-title {
+  width: 583px;
+  height: 116px;
+  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: #FFFFFF !important;
+  margin: 0;
+  opacity: 1;
+  text-align: left;
+}
+
+/* About Section */
+.community-about-section {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #F8F8F5 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 120px;
+  box-sizing: border-box;
+  opacity: 1;
+}
+
+.community-page .about-content {
+  width: 100% !important;
+  max-width: 1200px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 100px !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  grid-template-columns: none !important;
+  grid-template-rows: none !important;
+}
+
+.community-page .about-text {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  max-width: 550px !important;
+  padding: 0 !important;
+  order: 1 !important;
+}
+
+.community-page .about-label {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 15px !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.3px !important;
+  color: #7A7A7A !important;
+  margin: 0 0 20px 0 !important;
+  opacity: 1 !important;
+  text-transform: none !important;
+}
+
+.community-page .about-title {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 44px !important;
+  line-height: 1.3 !important;
+  letter-spacing: -0.02em !important;
+  color: #1F1F1F !important;
+  margin: 0 0 28px 0 !important;
+  opacity: 1 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+.community-page .about-description {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 17px !important;
+  line-height: 1.75 !important;
+  letter-spacing: 0.01em !important;
+  color: #5A5A5A !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+}
+
+.community-page .about-image {
+  flex-shrink: 0 !important;
+  width: 493px !important;
+  height: 493px !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12) !important;
+  display: block !important;
+  grid-column: unset !important;
+  grid-row: unset !important;
+  order: 2 !important;
+  min-width: 493px !important;
+  transform: rotate(0deg) !important;
+  opacity: 1 !important;
+}
+
+.community-page .about-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+  opacity: 1 !important;
+}
+
+/* Footer section styling to match home page */
+.community-page .cta-section {
+  width: 100%;
+  margin: 0;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+.community-page .footer {
+  width: 100%;
+  margin: 0;
+  opacity: 1;
+  box-sizing: border-box;
+}
+
+/* Responsive Design */
+@media (max-width: 1439px) {
+  .community-hero {
+    height: 700px;
+  }
+  
+  .community-page .hero-overlay {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  
+  .community-page .hero-title {
+    font-size: 52px;
+  }
+  
+  .community-about-section {
+    padding: 100px 80px;
+  }
+  
+  .community-page .about-content {
+    max-width: 100%;
+    height: auto;
+    gap: 50px;
+  }
+  
+  .community-page .about-text {
+    max-width: 100%;
+  }
+  
+  .community-page .about-label {
+    width: 100%;
+    height: auto;
+  }
+  
+  .community-page .about-title {
+    width: 100%;
+    height: auto;
+    font-size: 42px;
+    line-height: 50px;
+  }
+  
+  .community-page .about-description {
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .community-page .about-image {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+  .community-page {
+    padding-top: 0;
+  }
+  
+  .community-hero {
+    height: 500px;
+  }
+  
+  .community-page .hero-overlay {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  .community-page .hero-title {
+    font-size: 40px;
+  }
+  
+  .community-about-section {
+    padding: 60px 40px;
+  }
+  
+  .community-page .about-content {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+  }
+  
+  .community-page .about-text {
+    max-width: 100%;
+  }
+  
+  .community-page .about-label {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+  }
+  
+  .community-page .about-title {
+    width: 100%;
+    height: auto;
+    font-size: 36px;
+    line-height: 44px;
+    margin-bottom: 24px;
+  }
+  
+  .community-page .about-description {
+    width: 100%;
+    height: auto;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  
+  .community-page .about-image {
+    width: 100%;
+    max-width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .community-hero {
+    height: 400px;
+  }
+  
+  .community-page .hero-overlay {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .community-page .hero-title {
+    font-size: 32px;
+  }
+  
+  .community-about-section {
+    padding: 40px 24px;
+  }
+  
+  .community-page .about-content {
+    gap: 30px;
+  }
+  
+  .community-page .about-label {
+    font-size: 15px;
+  }
+  
+  .community-page .about-title {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .community-page .about-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .community-page .about-image {
+    max-width: 100%;
+    height: 300px;
+  }
+}

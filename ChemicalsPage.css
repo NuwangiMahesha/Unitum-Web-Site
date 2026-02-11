@@ -1,0 +1,339 @@
+.chemicals-page {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.chemicals-main {
+  padding-top: 80px; /* Account for fixed navigation */
+  background-color: #ffffff;
+}
+
+.chemicals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: grid;
+  grid-template-columns: 534px 592px;
+  gap: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.chemicals-content {
+  padding-right: 20px;
+  width: 534px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chemicals-additional-content {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.chemicals-additional-content .chemicals-container {
+  display: block;
+  max-width: 800px;
+}
+
+/* Header Section */
+.chemicals-label {
+  width: 534px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 1.4;
+  letter-spacing: 0%;
+  color: #456444;
+  margin-bottom: 16px;
+  opacity: 1;
+}
+
+.chemicals-title {
+  width: 534px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 1.25;
+  letter-spacing: 0%;
+  color: #353535;
+  margin-bottom: 30px;
+  opacity: 1;
+}
+
+.chemicals-description-wrapper {
+  width: 534px;
+  height: 330px;
+  margin-bottom: 30px;
+}
+
+.chemicals-description {
+  width: 100%;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #696777;
+  margin-bottom: 20px;
+  opacity: 1;
+  text-align: left;
+}
+
+.chemicals-description:last-child {
+  margin-bottom: 0;
+}
+
+.chemicals-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #95a5a6;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+
+.chemicals-date {
+  font-weight: 600;
+}
+
+.chemicals-category {
+  font-weight: 600;
+}
+
+.chemicals-read-time {
+  font-weight: 600;
+}
+
+.chemicals-separator {
+  color: #bdc3c7;
+  font-weight: 400;
+}
+
+/* Images */
+.chemicals-hero-image {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 592px;
+  height: 765px;
+  flex-shrink: 0;
+}
+
+.chemicals-content-image {
+  margin: 50px 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chemicals-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+.chemicals-hero-image .chemicals-image {
+  height: 500px;
+  width: 100%;
+}
+
+.chemicals-content-image .chemicals-image {
+  height: 400px;
+  width: 100%;
+}
+
+/* Sections */
+.chemicals-section {
+  margin: 50px 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chemicals-section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.chemicals-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5d6d7e;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .chemicals-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .chemicals-content {
+    padding-right: 0;
+    order: 1;
+    width: 100%;
+  }
+
+  .chemicals-hero-image {
+    order: 2;
+    width: 100%;
+    height: 300px;
+  }
+
+  .chemicals-label {
+    width: 100%;
+  }
+
+  .chemicals-title {
+    width: 100%;
+  }
+
+  .chemicals-description-wrapper {
+    width: 100%;
+    height: auto;
+  }
+
+  .chemicals-additional-content .chemicals-container {
+    max-width: 100%;
+    padding: 40px 20px;
+  }
+
+  .chemicals-label {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
+
+  .chemicals-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+
+  .chemicals-description {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+  }
+
+  .chemicals-description-wrapper {
+    margin-bottom: 25px;
+  }
+
+  .chemicals-meta {
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    font-size: 12px;
+  }
+
+  .chemicals-content-image {
+    max-width: 100%;
+    margin: 40px 0;
+    border-radius: 8px;
+  }
+
+  .chemicals-content-image .chemicals-image {
+    height: 280px;
+  }
+
+  .chemicals-section {
+    max-width: 100%;
+    margin: 40px 0;
+  }
+
+  .chemicals-section-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .chemicals-text {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+}
+
+@media (max-width: 480px) {
+  .chemicals-container {
+    padding: 30px 16px;
+  }
+
+  .chemicals-additional-content .chemicals-container {
+    padding: 30px 16px;
+  }
+
+  .chemicals-label {
+    font-size: 14px;
+  }
+
+  .chemicals-title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .chemicals-description {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .chemicals-hero-image {
+    height: 250px;
+  }
+
+  .chemicals-content-image .chemicals-image {
+    height: 220px;
+  }
+
+  .chemicals-section-title {
+    font-size: 22px;
+  }
+
+  .chemicals-text {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .chemicals-container {
+    max-width: 900px;
+    padding: 50px 30px;
+  }
+
+  .chemicals-hero-image,
+  .chemicals-content-image {
+    max-width: 800px;
+  }
+
+  .chemicals-section,
+  .chemicals-header {
+    max-width: 700px;
+  }
+
+  .chemicals-title {
+    font-size: 44px;
+  }
+
+  .chemicals-hero-image .chemicals-image {
+    height: 450px;
+  }
+
+  .chemicals-content-image .chemicals-image {
+    height: 380px;
+  }
+}

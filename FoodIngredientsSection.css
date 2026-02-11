@@ -1,0 +1,255 @@
+.food-ingredients-section {
+  padding: 40px 120px 80px;
+  background-color: #FDFFFA;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  opacity: 1;
+}
+
+.food-ingredients-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.food-ingredients-content {
+  padding-right: 20px;
+  max-width: 100%;
+  width: 100%;
+}
+
+.food-ingredients-label {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #456444;
+  margin-bottom: 16px;
+  opacity: 1;
+}
+
+.food-ingredients-title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.4;
+  letter-spacing: 0%;
+  color: #353535;
+  margin-bottom: 24px;
+  opacity: 1;
+}
+
+.food-ingredients-description {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  color: #696777;
+  margin-bottom: 20px;
+  opacity: 1;
+}
+
+.food-ingredients-link {
+  display: inline-block;
+  font-size: 18px;
+  color: var(--color-primary-dark);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  padding: 16px 40px;
+  margin-top: 12px;
+  border: 2px solid var(--color-primary-dark);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.food-ingredients-link:hover,
+.food-ingredients-link:focus,
+.food-ingredients-link:active {
+  background-color: var(--color-dark-green);
+  border-color: var(--color-dark-green);
+  color: var(--color-white);
+  transform: translateX(4px);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .food-ingredients-link:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark);
+    border-color: var(--color-primary-dark);
+    transform: none;
+  }
+  
+  .food-ingredients-link:active {
+    background-color: var(--color-dark-green);
+    border-color: var(--color-dark-green);
+    color: var(--color-white);
+  }
+}
+
+.food-ingredients-image {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 592px;
+  height: 765px;
+}
+
+.food-ingredients-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .food-ingredients-section {
+    min-height: auto;
+    padding: 60px 20px;
+  }
+  
+  .food-ingredients-container {
+    gap: 50px;
+  }
+
+  .food-ingredients-content {
+    padding-right: 0;
+    order: 1;
+  }
+
+  .food-ingredients-label {
+    font-size: 16px;
+  }
+
+  .food-ingredients-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .food-ingredients-description {
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+
+  .food-ingredients-image {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    order: 2;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .food-ingredients-section {
+    min-height: auto;
+    padding: 60px 20px;
+  }
+  
+  .food-ingredients-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .food-ingredients-content {
+    padding-right: 0;
+    order: 1;
+  }
+
+  .food-ingredients-label {
+    font-size: 15px;
+  }
+
+  .food-ingredients-title {
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+
+  .food-ingredients-description {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .food-ingredients-link {
+    font-size: 16px;
+    padding: 14px 32px;
+  }
+
+  .food-ingredients-image {
+    order: 2;
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .food-ingredients-section {
+    padding: 40px 16px;
+  }
+  
+  .food-ingredients-container {
+    gap: 32px;
+  }
+
+  .food-ingredients-label {
+    font-size: 14px;
+  }
+
+  .food-ingredients-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .food-ingredients-description {
+    font-size: 15px;
+    margin-bottom: 12px;
+  }
+
+  .food-ingredients-link {
+    font-size: 15px;
+    padding: 12px 24px;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .food-ingredients-image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 320px) {
+  .food-ingredients-section {
+    padding: 32px 12px;
+  }
+  
+  .food-ingredients-container {
+    gap: 24px;
+  }
+
+  .food-ingredients-title {
+    font-size: 22px;
+  }
+
+  .food-ingredients-description {
+    font-size: 14px;
+  }
+
+  .food-ingredients-link {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .food-ingredients-image {
+    height: 200px;
+  }
+}

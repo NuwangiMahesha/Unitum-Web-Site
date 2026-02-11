@@ -1,0 +1,49 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 48px;
+  width: 48px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+}
+
+.logo-light {
+  /* For light backgrounds (navigation) */
+}
+
+.logo-dark {
+  /* For dark backgrounds (footer) */
+  filter: brightness(0) invert(1);
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .logo-image {
+    height: 44px;
+    width: 44px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    height: 36px;
+    width: 36px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo-image {
+    height: 32px;
+    width: 32px;
+  }
+}
