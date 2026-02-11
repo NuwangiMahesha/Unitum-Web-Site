@@ -1,0 +1,125 @@
+:root {
+  /* Brand Colors */
+  --color-primary-green: #4A6B52;
+  --color-primary-dark: #3D3D5C;
+  --color-text-dark: #2E2E48;
+  --color-text-gray: #6B7280;
+  --color-text-light: #8B92A0;
+  --color-background: #FFFFFF;
+  --color-white: #FFFFFF;
+  --color-dark-green: #2f5032;
+
+  /* Accent Colors */
+  --color-green-hover: #3D5845;
+  --color-border: #E5E5E0;
+}
+
+/* Global Know More Button - Consistent across all pages */
+.know-more-button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: var(--color-primary-dark);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  width: fit-content;
+  text-decoration: none;
+}
+
+.know-more-button:hover,
+.know-more-button:focus,
+.know-more-button:active {
+  background-color: var(--color-dark-green);
+  color: var(--color-white);
+  padding: 12px 24px;
+  border-radius: 4px;
+  transform: translateX(4px);
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .know-more-button:hover {
+    background-color: transparent;
+    color: var(--color-primary-dark);
+    transform: none;
+  }
+
+  .know-more-button:active {
+    background-color: var(--color-dark-green);
+    color: var(--color-white);
+  }
+}
+
+.know-more-arrow {
+  font-size: 10px;
+}
+
+/* Spacing utilities for Know More button */
+.know-more-button.mt-30 {
+  margin-top: 30px;
+}
+
+.know-more-button.mt-24 {
+  margin-top: 24px;
+}
+
+.know-more-button.mt-20 {
+  margin-top: 20px;
+}
+
+/* Mobile responsive for Know More button */
+@media (max-width: 768px) {
+  .know-more-button {
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  .know-more-arrow {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  .know-more-button {
+    font-size: 16px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background);
+  color: var(--color-text-dark);
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}

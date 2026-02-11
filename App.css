@@ -1,0 +1,12 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--color-background);
+  overflow-x: hidden;
+}
+
+/* Ensure all containers are properly contained */
+.App > * {
+  max-width: 100%;
+  overflow-x: hidden;
+}

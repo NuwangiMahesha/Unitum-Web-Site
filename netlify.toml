@@ -1,0 +1,17 @@
+[build]
+  base = "Unitum-main"
+  publish = "build"
+  command = "npm run build"
+  functions = "netlify/functions"
+
+[build.environment]
+  GMAIL_USER = "nungiworking@gmail.com"
+  GMAIL_APP_PASSWORD = "vqik gosa utga fxzs"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
